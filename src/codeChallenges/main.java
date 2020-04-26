@@ -1,6 +1,5 @@
 package codeChallenges;
 
-import java.io.Console;
 
 public class main {
 
