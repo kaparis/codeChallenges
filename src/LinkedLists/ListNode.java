@@ -1,3 +1,10 @@
+/*
+ * Problem
+ * =====================
+ * Singly Linked List Node Object
+ *
+ */
+
 package LinkedLists;
 
 public class ListNode {
@@ -5,4 +12,5 @@ public class ListNode {
     ListNode next;
     ListNode(int x) { data = x; }
 }
+
 

@@ -2,9 +2,9 @@ package arraysAndStrings;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.Arrays;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class EscapeSpacesTest {
 
