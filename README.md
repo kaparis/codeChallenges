@@ -1,4 +1,4 @@
-# codeChallenges
+# CodingProblems
 Repository of code challenges I've solved. This will grow with time. 
 
 
