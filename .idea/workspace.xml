@@ -20,16 +20,16 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:01.04" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:01.05" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c358ef80-e029-45a3-af02-a22436a4db1f" name="Default Changelist" comment="Added DeleteMiddleNode and Sum Link Nodes Lists">
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/IsIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/IsPalindromeTest.java" afterDir="false" />
+    <list default="true" id="c358ef80-e029-45a3-af02-a22436a4db1f" name="Default Changelist" comment="Added IsPalindrome method">
+      <change afterPath="$PROJECT_DIR$/src/LinkedLists/IsIntersectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/IsIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/IsIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/IsPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/IsPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +39,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="01.03" />
+        <entry key="$PROJECT_DIR$" value="01.04" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +79,70 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IsPalindromeTest">
+  <component name="RunManager" selected="JUnit.IsIntersectionTest">
+    <configuration name="IsIntersectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedLists" />
+      <option name="MAIN_CLASS_NAME" value="LinkedLists.IsIntersectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsIntersectionTest.isIntersecting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedLists" />
+      <option name="MAIN_CLASS_NAME" value="LinkedLists.IsIntersectionTest" />
+      <option name="METHOD_NAME" value="isIntersecting" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsIntersectionTest.isIntersectingNo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedLists" />
+      <option name="MAIN_CLASS_NAME" value="LinkedLists.IsIntersectionTest" />
+      <option name="METHOD_NAME" value="isIntersectingNo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsIntersectionTest.isIntersectingSizeTwoYes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LinkedLists" />
+      <option name="MAIN_CLASS_NAME" value="LinkedLists.IsIntersectionTest" />
+      <option name="METHOD_NAME" value="isIntersectingSizeTwoYes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codeChallenges" />
       <extension name="coverage">
@@ -91,22 +154,6 @@
       <option name="PACKAGE_NAME" value="LinkedLists" />
       <option name="MAIN_CLASS_NAME" value="LinkedLists.IsPalindromeTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsPalindromeTest.OneNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedLists" />
-      <option name="MAIN_CLASS_NAME" value="LinkedLists.IsPalindromeTest" />
-      <option name="METHOD_NAME" value="OneNodeTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,68 +170,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedLists" />
-      <option name="MAIN_CLASS_NAME" value="LinkedLists.SumListsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumListsTest.routine2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedLists" />
-      <option name="MAIN_CLASS_NAME" value="LinkedLists.SumListsTest" />
-      <option name="METHOD_NAME" value="routine2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumListsTest.routineRecursiveOneNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkedLists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkedLists" />
-      <option name="MAIN_CLASS_NAME" value="LinkedLists.SumListsTest" />
-      <option name="METHOD_NAME" value="routineRecursiveOneNode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.Run Tests" />
-      <item itemvalue="JUnit.SumListsTest" />
-      <item itemvalue="JUnit.SumListsTest.routine2" />
-      <item itemvalue="JUnit.SumListsTest.routineRecursiveOneNode" />
       <item itemvalue="JUnit.IsPalindromeTest" />
-      <item itemvalue="JUnit.IsPalindromeTest.OneNodeTest" />
+      <item itemvalue="JUnit.IsIntersectionTest.isIntersecting" />
+      <item itemvalue="JUnit.IsIntersectionTest" />
+      <item itemvalue="JUnit.IsIntersectionTest.isIntersectingSizeTwoYes" />
+      <item itemvalue="JUnit.IsIntersectionTest.isIntersectingNo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsIntersectionTest" />
+        <item itemvalue="JUnit.IsIntersectionTest.isIntersectingNo" />
+        <item itemvalue="JUnit.IsIntersectionTest.isIntersectingSizeTwoYes" />
+        <item itemvalue="JUnit.IsIntersectionTest.isIntersecting" />
         <item itemvalue="JUnit.IsPalindromeTest" />
-        <item itemvalue="JUnit.IsPalindromeTest.OneNodeTest" />
-        <item itemvalue="JUnit.SumListsTest.routineRecursiveOneNode" />
-        <item itemvalue="JUnit.SumListsTest.routine2" />
-        <item itemvalue="JUnit.SumListsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589252312316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added IsPalindrome method">
+      <created>1589924992205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589924992205</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="01.04" />
+                        <option value="01.05" />
                       </list>
                     </value>
                   </entry>
@@ -243,7 +250,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added DeleteMiddleNode problem" />
     <MESSAGE value="Added DeleteMiddleNode and Sum Link Nodes Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added DeleteMiddleNode and Sum Link Nodes Lists" />
+    <MESSAGE value="Added IsPalindrome method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IsPalindrome method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1331" y="-906" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588129620458">
@@ -254,62 +262,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="641" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588472330836" />
-    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1589237420128">
+    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1590270013224">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="460" height="466" key="DebuggerActiveHint/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589237420128" />
+    <state width="460" height="466" key="DebuggerActiveHint/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270013224" />
     <state width="426" height="466" key="DebuggerActiveHint/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588131910398" />
     <state x="1657" y="-806" key="FileChooserDialogImpl" timestamp="1588129603859">
       <screen x="917" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1657" y="-806" key="FileChooserDialogImpl/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588129603859" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1589924803412">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1590270415703">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1346" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1589201301525" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589924803412" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270415703" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
     <state width="1346" height="404" key="GridCell.Tab.0.bottom/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588132424371" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1589924803412">
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1590270415703">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1346" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1589201301525" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589924803412" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270415703" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
     <state width="1346" height="404" key="GridCell.Tab.0.center/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588132424371" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1589924803412">
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1590270415703">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1346" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1589201301525" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589924803412" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270415703" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
     <state width="1346" height="404" key="GridCell.Tab.0.left/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588132424371" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1589924803412">
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1590270415703">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state width="1346" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1589201301525" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589924803412" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270415703" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
     <state width="1346" height="404" key="GridCell.Tab.0.right/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588132424371" />
-    <state width="1200" height="338" key="GridCell.Tab.1.bottom" timestamp="1589237449568">
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1590270037515">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589237449568" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
     <state width="1207" height="338" key="GridCell.Tab.1.bottom/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588131929496" />
-    <state width="1200" height="338" key="GridCell.Tab.1.center" timestamp="1589237449568">
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1590270037515">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589237449568" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
     <state width="1207" height="338" key="GridCell.Tab.1.center/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588131929495" />
-    <state width="1200" height="338" key="GridCell.Tab.1.left" timestamp="1589237449568">
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1590270037515">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589237449568" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
     <state width="1207" height="338" key="GridCell.Tab.1.left/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588131929495" />
-    <state width="1200" height="338" key="GridCell.Tab.1.right" timestamp="1589237449568">
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1590270037515">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state width="1200" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589237449568" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
     <state width="1207" height="338" key="GridCell.Tab.1.right/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588131929496" />
     <state x="1457" y="-818" key="IDE.errors.dialog" timestamp="1588132514278">
       <screen x="917" y="-1080" width="1920" height="1040" />
@@ -324,10 +332,10 @@
     </state>
     <state x="4301" y="164" key="SettingsEditor/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589252596831" />
     <state x="1378" y="-916" key="SettingsEditor/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588130269829" />
-    <state x="4392" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589252357018">
+    <state x="4392" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589924999430">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4392" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589252357018" />
+    <state x="4392" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589924999430" />
     <state x="1469" y="-828" key="Vcs.Push.Dialog.v2/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588132713777" />
     <state x="1581" y="-669" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588129651204">
       <screen x="917" y="-1080" width="1920" height="1040" />
@@ -337,10 +345,10 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4609" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589252569153" />
-    <state x="4571" y="341" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589391311262">
+    <state x="4571" y="341" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589927315670">
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
-    <state x="4571" y="341" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589391311262" />
+    <state x="4571" y="341" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589927315670" />
     <state x="1648" y="-739" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2194.1194/917.-1080.1920.1040@917.-1080.1920.1040" timestamp="1588129694100" />
     <state x="4028" y="219" width="1572" height="784" key="dock-window-1" timestamp="1588650443575">
       <screen x="3840" y="0" width="1920" height="1040" />
@@ -370,6 +378,16 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LinkedLists/IsPalindrome.java</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedLists/IsIntersection.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedLists/IsIntersectionTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
