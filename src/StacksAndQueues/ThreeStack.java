@@ -9,6 +9,9 @@
  * Implementation of ThreeStacks should use only one array,
  * i.e., the three stacks should use the same array for storing elements.
  *
+ * Improvement to Make
+ * Have flexable stack sizes so the stack grows.
+ *
  * Example
  * =====================
  * array size 12
