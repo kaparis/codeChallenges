@@ -20,16 +20,17 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:01.06" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c358ef80-e029-45a3-af02-a22436a4db1f" name="Default Changelist" comment="Added Find Circular Head&#10;Added ThreeStack">
-      <change afterPath="$PROJECT_DIR$/Problems List.md" afterDir="false" />
+    <list default="true" id="c358ef80-e029-45a3-af02-a22436a4db1f" name="Default Changelist" comment="Added Find Circular Head&#10;Added ThreeStack&#10;Upgrade to Inteli 2020.2&#10;Problems list updated.">
+      <change afterPath="$PROJECT_DIR$/src/StacksAndQueues/StackMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksAndQueues/StackMin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksAndQueues/StackMin3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksAndQueues/StackMinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StacksAndQueues/ThreeStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacksAndQueues/ThreeStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StacksAndQueues/ThreeStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacksAndQueues/ThreeStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems List.md" beforeDir="false" afterPath="$PROJECT_DIR$/Problems List.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +48,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="01.05" />
+        <entry key="$PROJECT_DIR$" value="01.06" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="kaparis" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="codeChallenges" />
   </component>
   <component name="ProjectId" id="1bCIJ9Xrv0gaki2y9IaoUhMFw04" />
   <component name="ProjectViewState">
@@ -68,37 +74,23 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/StacksAndQueues" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\src\codeChallenges\src\StacksAndQueues" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="StacksAndQueues" />
       <recent name="LinkedLists" />
       <recent name="codeChallenges" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThreeStackTest">
-    <configuration name="D:\src\codeChallenges\src.ThreeStackGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StacksAndQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="D:\src\codeChallenges\src" />
-      <option name="METHOD_NAME" value="ThreeStackGood" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StackMinTest">
     <configuration name="Run Tests" type="JUnit" factoryName="JUnit">
       <module name="codeChallenges" />
       <useClassPathOnly />
@@ -111,25 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StacksAndQueues.ThreeStackGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StacksAndQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues" />
-      <option name="METHOD_NAME" value="ThreeStackGood" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <useClassPathOnly />
+    <configuration name="StackMinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeChallenges" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StacksAndQueues.*" />
@@ -137,10 +112,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="StacksAndQueues" />
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.ThreeStack" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackMinTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackMinTest.GetTop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksAndQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackMinTest" />
+      <option name="METHOD_NAME" value="GetTop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackMinTest.GetTop2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codeChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksAndQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="StacksAndQueues" />
+      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.StackMinTest" />
+      <option name="METHOD_NAME" value="GetTop2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,22 +161,6 @@
       <option name="PACKAGE_NAME" value="StacksAndQueues" />
       <option name="MAIN_CLASS_NAME" value="StacksAndQueues.ThreeStackTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeStackTest2.push" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codeChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StacksAndQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="StacksAndQueues" />
-      <option name="MAIN_CLASS_NAME" value="StacksAndQueues.ThreeStackTest2" />
-      <option name="METHOD_NAME" value="push" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,21 +182,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.D:\src\codeChallenges\src.ThreeStackGood" />
       <item itemvalue="JUnit.Run Tests" />
-      <item itemvalue="JUnit.StacksAndQueues.ThreeStackGood" />
-      <item itemvalue="JUnit.ThreeStackTest2.push" />
+      <item itemvalue="JUnit.StackMinTest" />
+      <item itemvalue="JUnit.StackMinTest.GetTop2" />
+      <item itemvalue="JUnit.StackMinTest.GetTop" />
       <item itemvalue="JUnit.ThreeStackTest" />
       <item itemvalue="JUnit.ThreeStackTest.ThreeStackGood" />
-      <item itemvalue="JUnit.ThreeStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackMinTest" />
+        <item itemvalue="JUnit.StackMinTest.GetTop2" />
+        <item itemvalue="JUnit.StackMinTest.GetTop" />
         <item itemvalue="JUnit.ThreeStackTest" />
         <item itemvalue="JUnit.ThreeStackTest.ThreeStackGood" />
-        <item itemvalue="JUnit.ThreeStackTest2.push" />
-        <item itemvalue="JUnit.D:\src\codeChallenges\src.ThreeStackGood" />
-        <item itemvalue="JUnit.StacksAndQueues.ThreeStackGood" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591108300148</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Find Circular Head&#10;Added ThreeStack&#10;Upgrade to Inteli 2020.2&#10;Problems list updated.">
+      <created>1597323762161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597323762161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,19 +261,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="01.06" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -291,124 +274,15 @@
     <MESSAGE value="Added IsPalindrome method" />
     <MESSAGE value="Added IsPalindrome and IsIntersection" />
     <MESSAGE value="Added Find Circular Head&#10;Added ThreeStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Find Circular Head&#10;Added ThreeStack" />
+    <MESSAGE value="Added Find Circular Head&#10;Added ThreeStack&#10;Upgrade to Inteli 2020.2&#10;Problems list updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Find Circular Head&#10;Added ThreeStack&#10;Upgrade to Inteli 2020.2&#10;Problems list updated." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="713" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597250007903">
-      <screen x="0" y="0" width="3840" height="2120" />
+    <state x="2335" y="839" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608054303685">
+      <screen x="0" y="40" width="3840" height="2120" />
     </state>
-    <state x="485" y="713" width="1092" height="883" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597250007903" />
-    <state x="1600" y="795" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597238024137">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state x="1600" y="795" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597238024137" />
-    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1590270013224">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state width="460" height="466" key="DebuggerActiveHint/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270013224" />
-    <state x="3932" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1590270738727">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="3932" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270738727" />
-    <state x="811" y="813" key="FileChooserDialogImpl" timestamp="1597249697541">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state x="811" y="813" key="FileChooserDialogImpl/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597249697541" />
-    <state width="2001" height="707" key="GridCell.Tab.0.bottom" timestamp="1597250201002">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1591124184708" />
-    <state width="1867" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1591108240474" />
-    <state width="1878" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355226997" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
-    <state width="2001" height="707" key="GridCell.Tab.0.bottom/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597250201002" />
-    <state width="2001" height="707" key="GridCell.Tab.0.center" timestamp="1597250201002">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1591124184708" />
-    <state width="1867" height="309" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1591108240474" />
-    <state width="1878" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355226997" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
-    <state width="2001" height="707" key="GridCell.Tab.0.center/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597250201002" />
-    <state width="2001" height="707" key="GridCell.Tab.0.left" timestamp="1597250201001">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1591124184707" />
-    <state width="1867" height="309" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1591108240474" />
-    <state width="1878" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355226997" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
-    <state width="2001" height="707" key="GridCell.Tab.0.left/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597250201001" />
-    <state width="2001" height="707" key="GridCell.Tab.0.right" timestamp="1597250201002">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state width="1867" height="309" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040@0.0.1920.1040" timestamp="1591124184708" />
-    <state width="1867" height="309" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1591108240474" />
-    <state width="1878" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355226997" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588720964522" />
-    <state width="2001" height="707" key="GridCell.Tab.0.right/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597250201002" />
-    <state width="1878" height="338" key="GridCell.Tab.1.bottom" timestamp="1590355100640">
-      <screen x="3840" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
-    <state width="1878" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355100640" />
-    <state width="1878" height="338" key="GridCell.Tab.1.center" timestamp="1590355100640">
-      <screen x="3840" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
-    <state width="1878" height="338" key="GridCell.Tab.1.center/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355100640" />
-    <state width="1878" height="338" key="GridCell.Tab.1.left" timestamp="1590355100640">
-      <screen x="3840" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
-    <state width="1878" height="338" key="GridCell.Tab.1.left/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355100640" />
-    <state width="1878" height="338" key="GridCell.Tab.1.right" timestamp="1590355100640">
-      <screen x="3840" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270037515" />
-    <state width="1878" height="338" key="GridCell.Tab.1.right/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590355100640" />
-    <state x="4612" y="221" key="RollbackChangesDialog" timestamp="1589252584003">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="4612" y="221" key="RollbackChangesDialog/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589252584003" />
-    <state x="4301" y="164" key="SettingsEditor" timestamp="1589252596831">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="4301" y="164" key="SettingsEditor/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589252596831" />
-    <state x="4392" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590270491425">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="4392" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270491425" />
-    <state x="4609" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589252569153">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="4609" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589252569153" />
-    <state x="1462" y="695" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597250126521">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state x="4571" y="341" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1591107177487" />
-    <state x="4571" y="354" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590354680679" />
-    <state x="1462" y="695" key="com.intellij.testIntegration.createTest.CreateTestDialog/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597250126521" />
-    <state x="4028" y="219" width="1572" height="784" key="dock-window-1" timestamp="1588650443575">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="4028" y="219" width="1572" height="784" key="dock-window-1/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1588650443575" />
-    <state x="4506" y="76" width="587" height="888" key="find.popup" timestamp="1589251579577">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="4506" y="76" width="587" height="888" key="find.popup/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1589251579577" />
-    <state x="4596" y="420" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590270602553">
-      <screen x="3840" y="0" width="1920" height="1040" />
-    </state>
-    <state x="4596" y="420" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1590270602553" />
-    <state x="414" y="679" key="new project wizard" timestamp="1597249917306">
-      <screen x="0" y="0" width="3840" height="2120" />
-    </state>
-    <state x="414" y="679" key="new project wizard/3840.0.2194.1211/0.0.3840.2120@0.0.3840.2120" timestamp="1597249917306" />
-    <state x="4463" y="238" width="672" height="705" key="search.everywhere.popup" timestamp="1590353301118">
-      <screen x="3840" y="0" width="1920" height="1080" />
-    </state>
-    <state x="4463" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1920.1040@3840.0.1920.1040" timestamp="1588650161894" />
-    <state x="4463" y="238" width="672" height="705" key="search.everywhere.popup/0.0.1920.1040/3840.0.1920.1080@3840.0.1920.1080" timestamp="1590353301118" />
+    <state x="2335" y="839" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-3840.27.2560.1413/0.40.3840.2120@0.40.3840.2120" timestamp="1608054303685" />
+    <state x="2335" y="839" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.40.3840.2120@0.40.3840.2120" timestamp="1607954000113" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

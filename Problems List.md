@@ -22,7 +22,7 @@
 8. ✅ Loop Detection
 
 ##Stacks and Queues
-1. Three in One
+1. ✅ Three in One
 2. Stack Min
 3. Stack of Plates
 4. Queue via Stacks
